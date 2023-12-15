@@ -1,0 +1,72 @@
+# Dependency directories
+node_modules/
+bower_components/
+
+# Distribution directories
+dist/
+build/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sqlite
+*.log.*
+*.sqlite3
+
+# Environment variables
+.env
+
+# Compiled binary addons (some Node.js modules)
+build/Release
+
+# Yarn Integrity file
+.yarn-integrity
+
+# macOS
+.AppleDouble
+.DS_Store
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# JetBrains
+.idea/
+*.iml
+
+# npm
+*.log
+*.lock
+
+# Parcel
+.cache/
+
+# Next.js
+.next/
+out/
+
+# Nuxt.js
+.nuxt/
+
+# vuepress
+.vuepress/dist/
