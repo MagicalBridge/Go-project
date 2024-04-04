@@ -5,13 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="389ea4a9-e542-4e73-b799-9615bd580dbb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/04.自动推导类型.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03.变量的赋值.go" beforeDir="false" afterPath="$PROJECT_DIR$/03.变量的赋值.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04.交换两个变量.go" beforeDir="false" afterPath="$PROJECT_DIR$/06.交换两个变量.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05.自动推导类型.go" beforeDir="false" afterPath="$PROJECT_DIR$/05.变量的多重赋值.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
   </component>
   <component name="GOROOT" url="file://$USER_HOME$/go-work-space/sdk/go1.21.4" />
   <component name="Git.Settings">
@@ -30,6 +39,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
@@ -45,7 +55,7 @@
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
-  <component name="RunManager" selected="Go Build.go build 01.变量声明.go">
+  <component name="RunManager" selected="Go Build.go build 06.交换两个变量.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go-workspace" />
       <working_directory value="$PROJECT_DIR$" />
@@ -71,6 +81,14 @@
       <filePath value="$PROJECT_DIR$/02.变量的初始化.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build 06.交换两个变量.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-workspace" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/06.交换两个变量.go" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
       <module name="go-workspace" />
       <working_directory value="$PROJECT_DIR$" />
@@ -83,6 +101,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build 06.交换两个变量.go" />
         <item itemvalue="Go Build.go build 01.变量声明.go" />
         <item itemvalue="Go Build.go build 02.变量的初始化.go" />
       </list>
