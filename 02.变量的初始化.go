@@ -7,7 +7,9 @@ import "fmt"
 */
 
 func main() {
+	// 声明一个age变量，它的类型是int，初始化赋值为10
 	var age int = 10
+	// 声明一个num变量，它的类型是int，初始化赋值为20
 	var num int = 20
 	fmt.Println(age, num)
 }
