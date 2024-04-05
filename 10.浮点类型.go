@@ -13,5 +13,11 @@ func main() {
 	num = 123.45
 	num2 = 123.4567
 	fmt.Printf("%f \n", num) // 123.450000
-	fmt.Printf("%.2f", num2) // 123.46
+
+	// 这里我们强制要求保留2位小数，会进行四舍五入的操作
+	fmt.Printf("%.2f\n", num2) // 123.46
+
+	// 使用自动推导方式创建的浮点数，默认是float64
+	num3 := 12.345
+	fmt.Printf("%T", num3) // float64
 }

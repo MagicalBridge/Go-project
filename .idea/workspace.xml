@@ -6,10 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="389ea4a9-e542-4e73-b799-9615bd580dbb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07.格式化输出.go" beforeDir="false" afterPath="$PROJECT_DIR$/07.格式化输出.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08.接收输入.go" beforeDir="false" afterPath="$PROJECT_DIR$/08.接收输入.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09.整型数据类型.go" beforeDir="false" afterPath="$PROJECT_DIR$/09.整型数据类型.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/10.浮点类型.go" beforeDir="false" afterPath="$PROJECT_DIR$/10.浮点类型.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11.布尔类型.go" beforeDir="false" afterPath="$PROJECT_DIR$/11.布尔类型.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12.字符类型.go" beforeDir="false" afterPath="$PROJECT_DIR$/12.字符类型.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +55,7 @@
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
-  <component name="RunManager" selected="Go Build.go build 10.浮点类型.go">
+  <component name="RunManager" selected="Go Build.go build 12.字符类型.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go-workspace" />
       <working_directory value="$PROJECT_DIR$" />
@@ -64,22 +63,6 @@
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 06.交换两个变量.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-workspace" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/06.交换两个变量.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 07.格式化输出.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-workspace" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/07.格式化输出.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build 08.接收输入.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -106,6 +89,22 @@
       <filePath value="$PROJECT_DIR$/10.浮点类型.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build 11.布尔类型.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-workspace" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/11.布尔类型.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 12.字符类型.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-workspace" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/12.字符类型.go" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
       <module name="go-workspace" />
       <working_directory value="$PROJECT_DIR$" />
@@ -118,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build 12.字符类型.go" />
+        <item itemvalue="Go Build.go build 11.布尔类型.go" />
         <item itemvalue="Go Build.go build 10.浮点类型.go" />
         <item itemvalue="Go Build.go build 09.整型数据类型.go" />
         <item itemvalue="Go Build.go build 08.接收输入.go" />
-        <item itemvalue="Go Build.go build 07.格式化输出.go" />
-        <item itemvalue="Go Build.go build 06.交换两个变量.go" />
       </list>
     </recent_temporary>
   </component>
