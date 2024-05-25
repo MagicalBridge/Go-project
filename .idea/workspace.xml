@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="389ea4a9-e542-4e73-b799-9615bd580dbb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/24.函数的返回值.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15.常量.go" beforeDir="false" afterPath="$PROJECT_DIR$/15.常量.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/22.函数的参数个数.go" beforeDir="false" afterPath="$PROJECT_DIR$/22.函数的参数个数.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/23.函数不定参数列表.go" beforeDir="false" afterPath="$PROJECT_DIR$/23.函数不定参数列表.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
