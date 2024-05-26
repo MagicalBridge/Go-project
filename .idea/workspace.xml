@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="389ea4a9-e542-4e73-b799-9615bd580dbb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/24.函数的返回值.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/23.函数不定参数列表.go" beforeDir="false" afterPath="$PROJECT_DIR$/23.函数不定参数列表.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/24.函数的返回值.go" beforeDir="false" afterPath="$PROJECT_DIR$/24.函数的返回值.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +53,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Go Build.go build 23.函数不定参数列表.go">
+  <component name="RunManager" selected="Go Build.go build 24.函数的返回值.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go-workspace" />
       <working_directory value="$PROJECT_DIR$" />
@@ -62,14 +61,6 @@
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 10.浮点类型.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-workspace" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/10.浮点类型.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build 11.布尔类型.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -104,6 +95,14 @@
       <filePath value="$PROJECT_DIR$/23.函数不定参数列表.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build 24.函数的返回值.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-workspace" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/24.函数的返回值.go" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
       <module name="go-workspace" />
       <working_directory value="$PROJECT_DIR$" />
@@ -116,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build 24.函数的返回值.go" />
         <item itemvalue="Go Build.go build 23.函数不定参数列表.go" />
         <item itemvalue="Go Build.go build 21.循环结构.go" />
         <item itemvalue="Go Build.go build 12.字符类型.go" />
         <item itemvalue="Go Build.go build 11.布尔类型.go" />
-        <item itemvalue="Go Build.go build 10.浮点类型.go" />
       </list>
     </recent_temporary>
   </component>
