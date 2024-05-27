@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="389ea4a9-e542-4e73-b799-9615bd580dbb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/25.函数案例.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/26.函数作用域.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/27.延迟调用defer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/28.递归函数.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/29.数组简介.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/30.数组遍历.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/31.数组作为函数的参数.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03.变量的赋值.go" beforeDir="false" afterPath="$PROJECT_DIR$/03.变量的赋值.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.自动推导类型.go" beforeDir="false" afterPath="$PROJECT_DIR$/04.自动推导类型.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/20.if else.go" beforeDir="false" afterPath="$PROJECT_DIR$/20.if else.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +57,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Go Build.go build 26.函数作用域.go">
+  <component name="RunManager" selected="Go Build.go build 31.数组作为函数的参数.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go-workspace" />
       <working_directory value="$PROJECT_DIR$" />
@@ -68,44 +67,44 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 20.if else.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 27.延迟调用defer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-workspace" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/20.if else.go" />
+      <filePath value="$PROJECT_DIR$/27.延迟调用defer.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 21.循环结构.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 28.递归函数.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-workspace" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/21.循环结构.go" />
+      <filePath value="$PROJECT_DIR$/28.递归函数.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 23.函数不定参数列表.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 29.数组简介.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-workspace" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/23.函数不定参数列表.go" />
+      <filePath value="$PROJECT_DIR$/29.数组简介.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 24.函数的返回值.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 30.数组遍历.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-workspace" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/24.函数的返回值.go" />
+      <filePath value="$PROJECT_DIR$/30.数组遍历.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 26.函数作用域.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 31.数组作为函数的参数.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-workspace" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/26.函数作用域.go" />
+      <filePath value="$PROJECT_DIR$/31.数组作为函数的参数.go" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -120,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build 26.函数作用域.go" />
-        <item itemvalue="Go Build.go build 20.if else.go" />
-        <item itemvalue="Go Build.go build 24.函数的返回值.go" />
-        <item itemvalue="Go Build.go build 23.函数不定参数列表.go" />
-        <item itemvalue="Go Build.go build 21.循环结构.go" />
+        <item itemvalue="Go Build.go build 31.数组作为函数的参数.go" />
+        <item itemvalue="Go Build.go build 30.数组遍历.go" />
+        <item itemvalue="Go Build.go build 29.数组简介.go" />
+        <item itemvalue="Go Build.go build 28.递归函数.go" />
+        <item itemvalue="Go Build.go build 27.延迟调用defer.go" />
       </list>
     </recent_temporary>
   </component>
