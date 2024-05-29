@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="389ea4a9-e542-4e73-b799-9615bd580dbb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/32.数组值的比较.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/33.二维数组.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/34.切片的简介和创建.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/35.切片数据的初始化.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/36.切片数据遍历.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +54,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Go Build.go build 34.切片的简介和创建.go">
+  <component name="RunManager" selected="Go Build.go build 36.切片数据遍历.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go-workspace" />
       <working_directory value="$PROJECT_DIR$" />
@@ -63,22 +62,6 @@
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 30.数组遍历.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-workspace" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/30.数组遍历.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 31.数组作为函数的参数.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-workspace" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/31.数组作为函数的参数.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build 32.数组值的比较.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -105,6 +88,22 @@
       <filePath value="$PROJECT_DIR$/34.切片的简介和创建.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build 35.切片数据的初始化.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-workspace" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/35.切片数据的初始化.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 36.切片数据遍历.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-workspace" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/36.切片数据遍历.go" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
       <module name="go-workspace" />
       <working_directory value="$PROJECT_DIR$" />
@@ -117,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build 36.切片数据遍历.go" />
+        <item itemvalue="Go Build.go build 35.切片数据的初始化.go" />
         <item itemvalue="Go Build.go build 34.切片的简介和创建.go" />
         <item itemvalue="Go Build.go build 33.二维数组.go" />
         <item itemvalue="Go Build.go build 32.数组值的比较.go" />
-        <item itemvalue="Go Build.go build 31.数组作为函数的参数.go" />
-        <item itemvalue="Go Build.go build 30.数组遍历.go" />
       </list>
     </recent_temporary>
   </component>
