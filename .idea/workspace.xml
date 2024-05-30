@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="389ea4a9-e542-4e73-b799-9615bd580dbb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/38.切片的copy.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/39.切片作为函数参数.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/40.冒泡排序.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/41.map结构.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/42.map作为函数参数.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/43.结构体.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/44.结构体与数组.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/41.map结构.go" beforeDir="false" afterPath="$PROJECT_DIR$/41.map结构.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +56,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Go Build.go build 41.map结构.go">
+  <component name="RunManager" selected="Go Build.go build 44.结构体与数组.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go-workspace" />
       <working_directory value="$PROJECT_DIR$" />
@@ -64,30 +64,6 @@
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 36.切片数据遍历.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-workspace" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/36.切片数据遍历.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 37.切片的截取操作.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-workspace" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/37.切片的截取操作.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 38.切片的copy.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-workspace" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/38.切片的copy.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build 39.切片作为函数参数.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -106,6 +82,30 @@
       <filePath value="$PROJECT_DIR$/41.map结构.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build 42.map作为函数参数.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-workspace" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/42.map作为函数参数.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 43.结构体.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-workspace" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/43.结构体.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 44.结构体与数组.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-workspace" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/44.结构体与数组.go" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
       <module name="go-workspace" />
       <working_directory value="$PROJECT_DIR$" />
@@ -118,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build 44.结构体与数组.go" />
+        <item itemvalue="Go Build.go build 43.结构体.go" />
+        <item itemvalue="Go Build.go build 42.map作为函数参数.go" />
         <item itemvalue="Go Build.go build 41.map结构.go" />
         <item itemvalue="Go Build.go build 39.切片作为函数参数.go" />
-        <item itemvalue="Go Build.go build 38.切片的copy.go" />
-        <item itemvalue="Go Build.go build 37.切片的截取操作.go" />
-        <item itemvalue="Go Build.go build 36.切片数据遍历.go" />
       </list>
     </recent_temporary>
   </component>
