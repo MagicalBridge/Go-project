@@ -24,7 +24,7 @@ func main0101() {
 	//创建对象
 	var stu Student51
 
-	//student继承与父类person可以直接使用父类的结构体成员
+	// student继承父类person，可以直接使用父类的结构体成员
 	//stu.Person.name = "张三"
 	//stu.Person.age = 18
 	//stu.Person.id = 1001
@@ -39,12 +39,10 @@ func main0101() {
 	//stu.p.sex
 	stu.class = 302
 	stu.score = 99
-
 	fmt.Println(stu)
-
 }
 func main() {
-	//如果一个结构体包含其他结构体信息 需要依次进行初始化
+	// 如果一个结构体包含其他结构体信息 需要依次分开进行初始化
 	var stu Student51 = Student51{Person: Person{1001, "东方不败", 35, "不祥"}, score: 100, class: 302}
 	fmt.Printf("姓名：%s\n", stu.name)
 	fmt.Printf("性别：%s\n", stu.sex)
