@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="389ea4a9-e542-4e73-b799-9615bd580dbb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.变量声明.go" beforeDir="false" afterPath="$PROJECT_DIR$/01.变量声明.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.变量的赋值.go" beforeDir="false" afterPath="$PROJECT_DIR$/03.变量的赋值.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04.自动推导类型.go" beforeDir="false" afterPath="$PROJECT_DIR$/04.自动推导类型.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +61,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build 41.map结构.go">
+  <component name="RunManager" selected="Go 构建.go build 03.变量的赋值.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go-workspace" />
       <working_directory value="$PROJECT_DIR$" />
@@ -68,12 +71,12 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 41.map结构.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 03.变量的赋值.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-workspace" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/41.map结构.go" />
+      <filePath value="$PROJECT_DIR$/03.变量的赋值.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build 50.指针与结构体.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -120,11 +123,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build 41.map结构.go" />
-        <item itemvalue="Go Build.go build 53.方法的练习.go" />
-        <item itemvalue="Go Build.go build 52.为结构体添加方法.go" />
-        <item itemvalue="Go Build.go build 51.匿名字段实现继承.go" />
-        <item itemvalue="Go Build.go build 50.指针与结构体.go" />
+        <item itemvalue="Go 构建.go build 03.变量的赋值.go" />
       </list>
     </recent_temporary>
   </component>

@@ -18,4 +18,8 @@ func main() {
 	// 这里我声明了两个变量，中间用逗号进行分割，这种写法可以一次性声明多个相同数据类型的变量
 	var num, sum int
 	fmt.Println(num, sum)
+
+	// 这里我声明了一个布尔类型的变量，默认值是false
+	var flag bool
+	fmt.Println(flag)
 }
