@@ -22,4 +22,5 @@ func main() {
 	// 这里我声明了一个布尔类型的变量，默认值是false
 	var flag bool
 	fmt.Println(flag)
+
 }
