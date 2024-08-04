@@ -3,7 +3,6 @@ package main
 import "fmt"
 
 /*
-*
 布尔类型的默认值是 false
 */
 func main() {

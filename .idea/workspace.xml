@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="389ea4a9-e542-4e73-b799-9615bd580dbb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07.格式化输出.go" beforeDir="false" afterPath="$PROJECT_DIR$/07.format_printf.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09.整型数据类型.go" beforeDir="false" afterPath="$PROJECT_DIR$/09.integer_data_type.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10.浮点类型.go" beforeDir="false" afterPath="$PROJECT_DIR$/10.floating_point_type.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11.布尔类型.go" beforeDir="false" afterPath="$PROJECT_DIR$/11.bool_type.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +62,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build 03.变量的赋值.go">
+  <component name="RunManager" selected="Go 构建.go build 10.浮点类型.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go-workspace" />
       <working_directory value="$PROJECT_DIR$" />
@@ -76,20 +80,20 @@
       <filePath value="$PROJECT_DIR$/03.变量的赋值.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 50.指针与结构体.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 07.格式化输出.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-workspace" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/50.指针与结构体.go" />
+      <filePath value="$PROJECT_DIR$/07.格式化输出.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 51.匿名字段实现继承.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 10.浮点类型.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-workspace" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/51.匿名字段实现继承.go" />
+      <filePath value="$PROJECT_DIR$/10.浮点类型.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build 52.为结构体添加方法.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -120,6 +124,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build 10.浮点类型.go" />
+        <item itemvalue="Go 构建.go build 07.格式化输出.go" />
         <item itemvalue="Go 构建.go build 03.变量的赋值.go" />
       </list>
     </recent_temporary>
