@@ -6,10 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="389ea4a9-e542-4e73-b799-9615bd580dbb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07.格式化输出.go" beforeDir="false" afterPath="$PROJECT_DIR$/07.format_printf.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09.整型数据类型.go" beforeDir="false" afterPath="$PROJECT_DIR$/09.integer_data_type.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10.浮点类型.go" beforeDir="false" afterPath="$PROJECT_DIR$/10.floating_point_type.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11.布尔类型.go" beforeDir="false" afterPath="$PROJECT_DIR$/11.bool_type.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08.接收输入.go" beforeDir="false" afterPath="$PROJECT_DIR$/08.接收输入.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12.字符类型.go" beforeDir="false" afterPath="$PROJECT_DIR$/12.character_types.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13.字符串类型.go" beforeDir="false" afterPath="$PROJECT_DIR$/13.string_types.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14.强制类型转换.go" beforeDir="false" afterPath="$PROJECT_DIR$/14.type_conversion.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/15.常量.go" beforeDir="false" afterPath="$PROJECT_DIR$/15.constants_types .go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/16.算术运算符.go" beforeDir="false" afterPath="$PROJECT_DIR$/16.arithmetic_operator.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +25,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file://$USER_HOME$/go-work-space/sdk/go1.21.4" />
+  <component name="GOROOT" url="file:///usr/local/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -54,7 +56,7 @@
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;go.sdk&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -62,7 +64,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build 10.浮点类型.go">
+  <component name="RunManager" selected="Go 构建.go build 14.强制类型转换.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go-workspace" />
       <working_directory value="$PROJECT_DIR$" />
@@ -72,44 +74,44 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 03.变量的赋值.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 08.接收输入.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-workspace" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/03.变量的赋值.go" />
+      <filePath value="$PROJECT_DIR$/08.接收输入.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 07.格式化输出.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 09.integer_data_type.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-workspace" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/07.格式化输出.go" />
+      <filePath value="$PROJECT_DIR$/09.integer_data_type.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 10.浮点类型.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 10.floating_point_type.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-workspace" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/10.浮点类型.go" />
+      <filePath value="$PROJECT_DIR$/10.floating_point_type.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 52.为结构体添加方法.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 11.bool_type.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-workspace" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/52.为结构体添加方法.go" />
+      <filePath value="$PROJECT_DIR$/11.bool_type.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 53.方法的练习.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 14.强制类型转换.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-workspace" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/53.方法的练习.go" />
+      <filePath value="$PROJECT_DIR$/14.强制类型转换.go" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -124,9 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go 构建.go build 10.浮点类型.go" />
-        <item itemvalue="Go 构建.go build 07.格式化输出.go" />
-        <item itemvalue="Go 构建.go build 03.变量的赋值.go" />
+        <item itemvalue="Go 构建.go build 14.强制类型转换.go" />
+        <item itemvalue="Go 构建.go build 08.接收输入.go" />
+        <item itemvalue="Go 构建.go build 10.floating_point_type.go" />
+        <item itemvalue="Go 构建.go build 09.integer_data_type.go" />
+        <item itemvalue="Go 构建.go build 11.bool_type.go" />
       </list>
     </recent_temporary>
   </component>

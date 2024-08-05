@@ -15,5 +15,4 @@ func main() {
 	fmt.Scanf("%d", &age)
 	fmt.Println("age=", age)
 	fmt.Println(&age) // 0xc0000b4008 打印的是内存地址
-
 }
