@@ -6,12 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="389ea4a9-e542-4e73-b799-9615bd580dbb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08.接收输入.go" beforeDir="false" afterPath="$PROJECT_DIR$/08.接收输入.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12.字符类型.go" beforeDir="false" afterPath="$PROJECT_DIR$/12.character_types.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13.字符串类型.go" beforeDir="false" afterPath="$PROJECT_DIR$/13.string_types.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14.强制类型转换.go" beforeDir="false" afterPath="$PROJECT_DIR$/14.type_conversion.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15.常量.go" beforeDir="false" afterPath="$PROJECT_DIR$/15.constants_types .go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/16.算术运算符.go" beforeDir="false" afterPath="$PROJECT_DIR$/16.arithmetic_operator.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/47.指针.go" beforeDir="false" afterPath="$PROJECT_DIR$/47.pointer_type.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +59,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build 14.强制类型转换.go">
+  <component name="RunManager" selected="Go 构建.go build 47.指针.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go-workspace" />
       <working_directory value="$PROJECT_DIR$" />
@@ -98,20 +93,20 @@
       <filePath value="$PROJECT_DIR$/10.floating_point_type.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 11.bool_type.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-workspace" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/11.bool_type.go" />
-      <method v="2" />
-    </configuration>
     <configuration name="go build 14.强制类型转换.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-workspace" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/14.强制类型转换.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 47.指针.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-workspace" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/47.指针.go" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -126,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build 47.指针.go" />
         <item itemvalue="Go 构建.go build 14.强制类型转换.go" />
         <item itemvalue="Go 构建.go build 08.接收输入.go" />
         <item itemvalue="Go 构建.go build 10.floating_point_type.go" />
         <item itemvalue="Go 构建.go build 09.integer_data_type.go" />
-        <item itemvalue="Go 构建.go build 11.bool_type.go" />
       </list>
     </recent_temporary>
   </component>
