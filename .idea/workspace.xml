@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="389ea4a9-e542-4e73-b799-9615bd580dbb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/47.pointer_type.go" beforeDir="false" afterPath="$PROJECT_DIR$/47.pointer_type.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +59,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build 47.指针.go">
+  <component name="RunManager" selected="Go 构建.go build 47.pointer_type.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go-workspace" />
       <working_directory value="$PROJECT_DIR$" />
@@ -74,14 +75,6 @@
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/08.接收输入.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 09.integer_data_type.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-workspace" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/09.integer_data_type.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build 10.floating_point_type.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -108,6 +101,14 @@
       <filePath value="$PROJECT_DIR$/47.指针.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build 47.pointer_type.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-workspace" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/47.pointer_type.go" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
       <module name="go-workspace" />
       <working_directory value="$PROJECT_DIR$" />
@@ -120,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build 47.pointer_type.go" />
         <item itemvalue="Go 构建.go build 47.指针.go" />
         <item itemvalue="Go 构建.go build 14.强制类型转换.go" />
         <item itemvalue="Go 构建.go build 08.接收输入.go" />
         <item itemvalue="Go 构建.go build 10.floating_point_type.go" />
-        <item itemvalue="Go 构建.go build 09.integer_data_type.go" />
       </list>
     </recent_temporary>
   </component>
