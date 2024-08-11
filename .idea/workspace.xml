@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="389ea4a9-e542-4e73-b799-9615bd580dbb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/51.匿名字段实现继承.go" beforeDir="false" afterPath="$PROJECT_DIR$/51.匿名字段实现继承.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/40.冒泡排序.go" beforeDir="false" afterPath="$PROJECT_DIR$/40.bubble_sort .go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/43.结构体.go" beforeDir="false" afterPath="$PROJECT_DIR$/43.struct_type.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +60,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build 51.匿名字段实现继承.go">
+  <component name="RunManager" selected="Go 构建.go build 43.结构体.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go-workspace" />
       <working_directory value="$PROJECT_DIR$" />
@@ -69,12 +70,12 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 47.指针.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 43.结构体.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-workspace" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/47.指针.go" />
+      <filePath value="$PROJECT_DIR$/43.结构体.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build 47.pointer_type.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -121,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build 43.结构体.go" />
         <item itemvalue="Go 构建.go build 51.匿名字段实现继承.go" />
         <item itemvalue="Go 构建.go build 49.指针与切片.go" />
         <item itemvalue="Go 构建.go build 48.pointer_arr.go" />
         <item itemvalue="Go 构建.go build 47.pointer_type.go" />
-        <item itemvalue="Go 构建.go build 47.指针.go" />
       </list>
     </recent_temporary>
   </component>
