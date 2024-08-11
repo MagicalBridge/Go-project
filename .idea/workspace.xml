@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="389ea4a9-e542-4e73-b799-9615bd580dbb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/55.Method_rewriting.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/52.为结构体添加方法.go" beforeDir="false" afterPath="$PROJECT_DIR$/52.为结构体添加方法.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/53.方法继承.go" beforeDir="false" afterPath="$PROJECT_DIR$/53.methods_inherited.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/54.方法的练习.go" beforeDir="false" afterPath="$PROJECT_DIR$/54.方法的练习.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +61,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build 43.结构体.go">
+  <component name="RunManager" selected="Go 构建.go build 55.方法重写.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go-workspace" />
       <working_directory value="$PROJECT_DIR$" />
@@ -75,14 +77,6 @@
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/43.结构体.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 47.pointer_type.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-workspace" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/47.pointer_type.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build 48.pointer_arr.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -109,6 +103,14 @@
       <filePath value="$PROJECT_DIR$/51.匿名字段实现继承.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build 55.方法重写.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-workspace" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/55.方法重写.go" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
       <module name="go-workspace" />
       <working_directory value="$PROJECT_DIR$" />
@@ -121,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build 55.方法重写.go" />
         <item itemvalue="Go 构建.go build 43.结构体.go" />
         <item itemvalue="Go 构建.go build 51.匿名字段实现继承.go" />
         <item itemvalue="Go 构建.go build 49.指针与切片.go" />
         <item itemvalue="Go 构建.go build 48.pointer_arr.go" />
-        <item itemvalue="Go 构建.go build 47.pointer_type.go" />
       </list>
     </recent_temporary>
   </component>

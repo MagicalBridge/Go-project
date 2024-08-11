@@ -19,14 +19,12 @@ type Human struct {
 // Reper 记者子类
 type Reper struct {
 	Human
-
 	hobby string
 }
 
 // Dever 程序员子类
 type Dever struct {
 	Human
-
 	worktime int
 }
 
