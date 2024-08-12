@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55f8c628-2475-4f63-b19e-3fa91b213239" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/56.方法值与方法表达式.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/57.interface_type.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Go-project.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/go-workspace.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21.循环结构.go" beforeDir="false" afterPath="$PROJECT_DIR$/21.loop_type.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/57.interface_type.go" beforeDir="false" afterPath="$PROJECT_DIR$/57.interface_type.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,10 +48,12 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "go.import.settings.migrated": "true",
-    "last_opened_file_path": "/Users/chupengfei/Documents/myProject/Golang/go-base"
+    "last_opened_file_path": "/Users/chupengfei/Documents/myProject/Golang/go-base",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)"
   }
 }]]></component>
-  <component name="RunManager" selected="Go 构建.go build 54.方法的练习.go">
+  <component name="RunManager" selected="Go 构建.go build 57.interface_type.go">
     <configuration name="go build 53.methods_inherited.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-base" />
       <working_directory value="$PROJECT_DIR$" />
@@ -79,6 +78,14 @@
       <filePath value="$PROJECT_DIR$/56.方法值与方法表达式.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build 57.interface_type.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-base" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/57.interface_type.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build go-base" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-base" />
       <working_directory value="$PROJECT_DIR$" />
@@ -90,6 +97,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build 57.interface_type.go" />
         <item itemvalue="Go 构建.go build 54.方法的练习.go" />
         <item itemvalue="Go 构建.go build 53.methods_inherited.go" />
         <item itemvalue="Go 构建.go build 56.方法值与方法表达式.go" />
