@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55f8c628-2475-4f63-b19e-3fa91b213239" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/58.polymorphism.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/60.接口的继承与转换.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/61.空接口.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/62.类型断言.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/19.关系运算符.go" beforeDir="false" afterPath="$PROJECT_DIR$/19.relational_operator.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,23 +53,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;
   }
 }</component>
-  <component name="RunManager" selected="Go 构建.go build 60.接口的继承与转换.go">
-    <configuration name="go build 53.methods_inherited.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-base" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/53.methods_inherited.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 54.方法的练习.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-base" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/54.方法的练习.go" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go 构建.go build 62.类型断言.go">
     <configuration name="go build 57.interface_type.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-base" />
       <working_directory value="$PROJECT_DIR$" />
@@ -95,13 +78,29 @@
       <filePath value="$PROJECT_DIR$/60.接口的继承与转换.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build 61.空接口.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-base" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/61.空接口.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 62.类型断言.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-base" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/62.类型断言.go" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build 62.类型断言.go" />
+        <item itemvalue="Go 构建.go build 61.空接口.go" />
         <item itemvalue="Go 构建.go build 60.接口的继承与转换.go" />
         <item itemvalue="Go 构建.go build 58.polymorphism.go" />
         <item itemvalue="Go 构建.go build 57.interface_type.go" />
-        <item itemvalue="Go 构建.go build 54.方法的练习.go" />
-        <item itemvalue="Go 构建.go build 53.methods_inherited.go" />
       </list>
     </recent_temporary>
   </component>
