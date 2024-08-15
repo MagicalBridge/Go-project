@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55f8c628-2475-4f63-b19e-3fa91b213239" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/64.文件创建.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/65.写入数据.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,15 +59,7 @@
     "node.js.selected.package.eslint": "(autodetect)"
   }
 }]]></component>
-  <component name="RunManager" selected="Go 构建.go build 64.文件创建.go">
-    <configuration name="go build 60.接口的继承与转换.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-base" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/60.接口的继承与转换.go" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go 构建.go build 65.写入数据.go">
     <configuration name="go build 61.空接口.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-base" />
       <working_directory value="$PROJECT_DIR$" />
@@ -98,13 +92,21 @@
       <filePath value="$PROJECT_DIR$/64.文件创建.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build 65.写入数据.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-base" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/65.写入数据.go" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build 65.写入数据.go" />
         <item itemvalue="Go 构建.go build 64.文件创建.go" />
         <item itemvalue="Go 构建.go build 63.error.go" />
         <item itemvalue="Go 构建.go build 62.类型断言.go" />
         <item itemvalue="Go 构建.go build 61.空接口.go" />
-        <item itemvalue="Go 构建.go build 60.接口的继承与转换.go" />
       </list>
     </recent_temporary>
   </component>
