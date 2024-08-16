@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"io"
 	"os"
 )
 
@@ -63,7 +64,10 @@ func main() {
 
 	// 获取光标流位置
 	// 获取从文件起始到结尾有多少个字符
-	// 指定位置写入
+	// 返回的count变量可以作为变量传入WriteAt方法中, 告诉该方法要从哪里开始写入数据
+	// 第一个参数offset含义是：从文件起始的位置往后偏移offset个字符后开始写入
+	// 如果offset大于文件的总长度，那么WriteAt方法会在文件的末尾添加数据
+	count, _ := fp.Seek(0, io.SeekEnd)
 	// fp.WriteAt([]byte("hello world"),count)
-	fp.WriteAt([]byte("itcast"), 0)
+	fp.WriteAt([]byte("itcast"), count)
 }
