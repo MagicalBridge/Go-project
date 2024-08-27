@@ -10,7 +10,7 @@ import "fmt"
 //
 // 切片长度是不固定的，比数组更加灵活，源码中的实现，它其实是一个结构体。
 func main() {
-	//	创建一个切片
+	// 创建一个切片
 	var s []int
 	fmt.Println(s)
 	fmt.Println(len(s)) // 0
