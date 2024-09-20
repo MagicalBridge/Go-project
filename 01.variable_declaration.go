@@ -23,4 +23,8 @@ func main() {
 	var flag bool
 	fmt.Println(flag)
 
+	// 这里我声明一个字符串变量，它的默认值是"", 这里我使用 “%q” 进行打印，能够将空字符串以双引号的形式输出来
+	var s string
+	fmt.Printf("%q", s)
+
 }
