@@ -15,7 +15,7 @@ func twoSum(nums []int, target int) []int {
 }
 
 func main() {
-	// 第一种初始化的方式
+	// 第一种初始化的方式, 从编辑器的角度来看，前面的类型可以省略，可以自动推导
 	var m map[int]string = map[int]string{1: "louis", 2: "btc"}
 	fmt.Println(m) // map[1:louis 2:btc]
 	fmt.Println(m[2])
