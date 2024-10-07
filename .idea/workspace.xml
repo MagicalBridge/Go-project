@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55f8c628-2475-4f63-b19e-3fa91b213239" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/68.go中的携程.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/69.go携程中的主死从随特性.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/70.其中多个携程.go" afterDir="false" />
+    <list default="true" id="55f8c628-2475-4f63-b19e-3fa91b213239" name="更改" comment="feat:add goroutine">
+      <change afterPath="$PROJECT_DIR$/71.waitgroup.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01.variable_declaration.go" beforeDir="false" afterPath="$PROJECT_DIR$/01.variable_declaration.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/34.切片的简介和创建.go" beforeDir="false" afterPath="$PROJECT_DIR$/34.切片的简介和创建.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/41.map结构.go" beforeDir="false" afterPath="$PROJECT_DIR$/41.map结构.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/47.pointer_type.go" beforeDir="false" afterPath="$PROJECT_DIR$/47.pointer_type.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,21 +57,13 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;
   }
 }</component>
-  <component name="RunManager" selected="Go 构建.go build 70.其中多个携程.go">
+  <component name="RunManager" selected="Go 构建.go build 71.waitgroup.go">
     <configuration name="go build 01.variable_declaration.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-base" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/01.variable_declaration.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 67.字符串的转换.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-base" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/67.字符串的转换.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build 68.go中的携程.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -104,13 +90,21 @@
       <filePath value="$PROJECT_DIR$/70.其中多个携程.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build 71.waitgroup.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-base" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/71.waitgroup.go" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build 71.waitgroup.go" />
         <item itemvalue="Go 构建.go build 70.其中多个携程.go" />
         <item itemvalue="Go 构建.go build 69.go携程中的主死从随特性.go" />
         <item itemvalue="Go 构建.go build 68.go中的携程.go" />
         <item itemvalue="Go 构建.go build 01.variable_declaration.go" />
-        <item itemvalue="Go 构建.go build 67.字符串的转换.go" />
       </list>
     </recent_temporary>
   </component>
@@ -131,6 +125,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="feat:add goroutine" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:add goroutine" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
