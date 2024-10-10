@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55f8c628-2475-4f63-b19e-3fa91b213239" name="更改" comment="feat:add goroutine">
-      <change afterPath="$PROJECT_DIR$/74.管道的基本概念和用例.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/75.管道关闭.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/76.管道的遍历.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/77.协程和管道协同工作案例.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/78.只读管道和只写管道.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/79.协程错误处理.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/80.泛型的基本概念.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.variable_declaration.go" beforeDir="false" afterPath="$PROJECT_DIR$/01.变量声明.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/76.管道的遍历.go" beforeDir="false" afterPath="$PROJECT_DIR$/76.管道的遍历.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,58 +43,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.modules.automatic.dependencies.download&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
-    &quot;ToolWindowGit.ShowToolbar&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/chupengfei/Documents/myProject/Golang/go-base&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultGoTemplateProperty": "Go File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.automatic.dependencies.download": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "ToolWindowGit.ShowToolbar": "false",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "go.import.settings.migrated": "true",
+    "last_opened_file_path": "/Users/chupengfei/Documents/myProject/Golang/go-base",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
-}</component>
-  <component name="RunManager" selected="Go 构建.go build 75.管道关闭.go">
-    <configuration name="go build 71.waitgroup.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-base" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/71.waitgroup.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 72.多个协程操作同一份数据.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-base" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/72.多个协程操作同一份数据.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 73.互斥锁的引入.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-base" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/73.互斥锁的引入.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 74.管道的基本概念和用例.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-base" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/74.管道的基本概念和用例.go" />
-      <method v="2" />
-    </configuration>
+}]]></component>
+  <component name="RunManager" selected="Go 构建.go build 79.协程错误处理.go">
     <configuration name="go build 75.管道关闭.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-base" />
       <working_directory value="$PROJECT_DIR$" />
@@ -100,13 +72,45 @@
       <filePath value="$PROJECT_DIR$/75.管道关闭.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build 76.管道的遍历.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-base" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/76.管道的遍历.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 77.协程和管道协同工作案例.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-base" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/77.协程和管道协同工作案例.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 78.只读管道和只写管道.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-base" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/78.只读管道和只写管道.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 79.协程错误处理.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-base" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/79.协程错误处理.go" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build 79.协程错误处理.go" />
+        <item itemvalue="Go 构建.go build 78.只读管道和只写管道.go" />
+        <item itemvalue="Go 构建.go build 77.协程和管道协同工作案例.go" />
+        <item itemvalue="Go 构建.go build 76.管道的遍历.go" />
         <item itemvalue="Go 构建.go build 75.管道关闭.go" />
-        <item itemvalue="Go 构建.go build 74.管道的基本概念和用例.go" />
-        <item itemvalue="Go 构建.go build 73.互斥锁的引入.go" />
-        <item itemvalue="Go 构建.go build 72.多个协程操作同一份数据.go" />
-        <item itemvalue="Go 构建.go build 71.waitgroup.go" />
       </list>
     </recent_temporary>
   </component>
