@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 /**
 泛型 Generic Type
 泛型函数和泛型类型。
@@ -20,3 +22,24 @@ Go中通过类型参数来支持泛型的。类型参数需要配合类型和函
 泛型函数，generic function，函数定义中带有类型参数的，称为泛型函数
 泛型接口，接口定义中带有类型参数的，称为泛型接口。
 */
+
+func main() {
+	// 这里定义了一个泛型，类型参数T，用于表示 mySlice 中元素的类型
+	type mySlice[T int | string] []T
+
+	// 进行泛型的实例化
+	intSlice := mySlice[int]{1, 2, 3, 4}
+	stringSlice := mySlice[string]{"one", "two"}
+
+	fmt.Println(intSlice)
+	fmt.Println(stringSlice)
+
+	// 这里定义一个泛型map, 其中key是string类型，value是float32类型
+	type myMap[K string, V float32] map[K]V
+	myFloatMap := myMap[string, float32]{
+		"one":   1.0,
+		"two":   2.0,
+		"three": 3.0,
+	}
+	fmt.Println(myFloatMap)
+}
