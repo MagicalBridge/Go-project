@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="55f8c628-2475-4f63-b19e-3fa91b213239" name="更改" comment="feat:add goroutine">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07.format_printf.go" beforeDir="false" afterPath="$PROJECT_DIR$/基本变量与类型/07.format_printf.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08.use_scanf.go" beforeDir="false" afterPath="$PROJECT_DIR$/基本变量与类型/08.use_scanf.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09.integer_data_type.go" beforeDir="false" afterPath="$PROJECT_DIR$/基本变量与类型/09.整型.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10.floating_point_type.go" beforeDir="false" afterPath="$PROJECT_DIR$/基本变量与类型/10.浮点类型.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11.bool_type.go" beforeDir="false" afterPath="$PROJECT_DIR$/基本变量与类型/11.布尔类型.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12.character_types.go" beforeDir="false" afterPath="$PROJECT_DIR$/基本变量与类型/12.character_types.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +65,7 @@
       <recent name="$PROJECT_DIR$/基本变量与类型" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build 09.整型.go">
+  <component name="RunManager" selected="Go 构建.go build 08.use_scanf.go">
     <configuration name="go build 01.变量声明.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-base" />
       <working_directory value="$PROJECT_DIR$" />
@@ -80,6 +80,14 @@
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/基本变量与类型/02.变量初始化.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 08.use_scanf.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-base" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/基本变量与类型/08.use_scanf.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build 09.整型.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -98,21 +106,13 @@
       <filePath value="$PROJECT_DIR$/24.函数的返回值.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 80.泛型的基本概念.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-base" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/80.泛型的基本概念.go" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build 08.use_scanf.go" />
         <item itemvalue="Go 构建.go build 09.整型.go" />
         <item itemvalue="Go 构建.go build 02.变量初始化.go" />
         <item itemvalue="Go 构建.go build 01.变量声明.go" />
         <item itemvalue="Go 构建.go build 24.函数的返回值.go" />
-        <item itemvalue="Go 构建.go build 80.泛型的基本概念.go" />
       </list>
     </recent_temporary>
   </component>
