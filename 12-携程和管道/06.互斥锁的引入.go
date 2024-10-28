@@ -12,6 +12,7 @@ var lock = sync.Mutex{}
 
 func add3() {
 	defer wg3.Done()
+
 	for i := 0; i < 100000; i++ {
 		lock.Lock()
 		totalNum2 = totalNum2 + 1

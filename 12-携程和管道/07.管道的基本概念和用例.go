@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 // 在go中 管道本质上是一种数据结构：队列，所以符合队列的数据结构的特点，先进先出
-// 自身是线程安全的，多协程访问的时候，不需要加锁，12-携程和管道 本身就是线程安全的
+// 自身是线程安全的，多协程访问的时候，不需要加锁。不会发生资源争抢的问题
 // 管道是有类型的，一个string的管道只能存放string类型的数据
 
 // 【1】管道的定义
@@ -18,23 +18,29 @@ func main() {
 	//	通过make进行初始化：管道可以存放3个int类型的数据
 	intChan = make(chan int, 3)
 
-	//	证明管道是引用类型
-	fmt.Println("intChan的值 %v", intChan) //
+	// 证明管道是引用类型
+	fmt.Println("intChan的值 %v", intChan) // 0xc00009e000
 
-	//	向管道中存放数据
+	// 向管道中存放数据
 	intChan <- 10
+	intChan <- 20
 	intChan <- 30
 
 	// 注意不能存放大于用量的数据
+	// intChan <- 80
 
 	fmt.Println("管道的实际长度：%v, 管道的容量是：%v", len(intChan), cap(intChan))
 
 	// 在管道中读取数据
 	num := <-intChan
 	num2 := <-intChan
+	num3 := <-intChan
 	fmt.Println(num)
 	fmt.Println(num2)
+	fmt.Println(num3)
 
 	//	注意：在没有使用协程的情况下，如果管道的数据已经全部取出，那么再取就会报错
+	//num4 := <-intChan
+	//fmt.Println(num4)
 
 }

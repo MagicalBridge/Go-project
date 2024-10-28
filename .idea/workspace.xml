@@ -5,48 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55f8c628-2475-4f63-b19e-3fa91b213239" name="更改" comment="feat:add goroutine">
-      <change afterPath="$PROJECT_DIR$/12.携程和管道/01.go中的携程.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12.携程和管道/02.go携程中的主死从随特性.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12.携程和管道/03.其中多个携程.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12.携程和管道/04.waitgroup.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12.携程和管道/05.多个协程操作同一份数据.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12.携程和管道/73.互斥锁的引入.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12.携程和管道/74.管道的基本概念和用例.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12.携程和管道/75.管道关闭.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12.携程和管道/76.管道的遍历.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12.携程和管道/77.协程和管道协同工作案例.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12.携程和管道/78.只读管道和只写管道.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12.携程和管道/79.协程错误处理.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gorm/1.连接数据库.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-携程和管道/12.管道的阻塞.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-携程和管道/13.管道的select功能.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/41.map结构.go" beforeDir="false" afterPath="$PROJECT_DIR$/9.映射/1.map结构.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/68.go中的携程.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/69.go携程中的主死从随特性.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/70.其中多个携程.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/71.waitgroup.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/72.多个协程操作同一份数据.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/73.互斥锁的引入.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/74.管道的基本概念和用例.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/75.管道关闭.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/76.管道的遍历.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/77.协程和管道协同工作案例.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/78.只读管道和只写管道.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/79.协程错误处理.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/基本变量与类型/01.变量声明.go" beforeDir="false" afterPath="$PROJECT_DIR$/2.变量与数据类型/01.变量声明.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基本变量与类型/02.变量初始化.go" beforeDir="false" afterPath="$PROJECT_DIR$/2.变量与数据类型/02.变量初始化.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基本变量与类型/03.变量赋值.go" beforeDir="false" afterPath="$PROJECT_DIR$/2.变量与数据类型/03.变量赋值.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基本变量与类型/04.自动类型推导.go" beforeDir="false" afterPath="$PROJECT_DIR$/2.变量与数据类型/04.自动类型推导.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基本变量与类型/05.变量多重赋值.go" beforeDir="false" afterPath="$PROJECT_DIR$/2.变量与数据类型/05.变量多重赋值.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基本变量与类型/06.交换两个变量的值.go" beforeDir="false" afterPath="$PROJECT_DIR$/2.变量与数据类型/06.交换两个变量的值.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基本变量与类型/07.format_printf.go" beforeDir="false" afterPath="$PROJECT_DIR$/2.变量与数据类型/07.format_printf.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基本变量与类型/08.use_scanf.go" beforeDir="false" afterPath="$PROJECT_DIR$/2.变量与数据类型/08.use_scanf.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基本变量与类型/09.整型.go" beforeDir="false" afterPath="$PROJECT_DIR$/2.变量与数据类型/09.整型.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基本变量与类型/10.浮点类型.go" beforeDir="false" afterPath="$PROJECT_DIR$/2.变量与数据类型/10.浮点类型.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基本变量与类型/11.布尔类型.go" beforeDir="false" afterPath="$PROJECT_DIR$/2.变量与数据类型/11.布尔类型.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基本变量与类型/12.字符类型.go" beforeDir="false" afterPath="$PROJECT_DIR$/2.变量与数据类型/12.字符类型.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基本变量与类型/13.字符串类型.go" beforeDir="false" afterPath="$PROJECT_DIR$/2.变量与数据类型/13.字符串类型.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基本变量与类型/14.类型转换.go" beforeDir="false" afterPath="$PROJECT_DIR$/2.变量与数据类型/14.类型转换.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基本变量与类型/15.常量.go" beforeDir="false" afterPath="$PROJECT_DIR$/2.变量与数据类型/15.常量.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-携程和管道/73.互斥锁的引入.go" beforeDir="false" afterPath="$PROJECT_DIR$/12-携程和管道/06.互斥锁的引入.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-携程和管道/74.管道的基本概念和用例.go" beforeDir="false" afterPath="$PROJECT_DIR$/12-携程和管道/07.管道的基本概念和用例.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-携程和管道/75.管道关闭.go" beforeDir="false" afterPath="$PROJECT_DIR$/12-携程和管道/08.管道关闭.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-携程和管道/76.管道的遍历.go" beforeDir="false" afterPath="$PROJECT_DIR$/12-携程和管道/09.管道的遍历.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-携程和管道/77.协程和管道协同工作案例.go" beforeDir="false" afterPath="$PROJECT_DIR$/12-携程和管道/10.协程和管道协同工作案例.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-携程和管道/78.只读管道和只写管道.go" beforeDir="false" afterPath="$PROJECT_DIR$/12-携程和管道/11.只读管道和只写管道.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-携程和管道/79.协程错误处理.go" beforeDir="false" afterPath="$PROJECT_DIR$/12-携程和管道/14.协程错误处理.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/16.arithmetic_operator.go" beforeDir="false" afterPath="$PROJECT_DIR$/3-运算符/16.算数运算符.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/34.切片的简介和创建.go" beforeDir="false" afterPath="$PROJECT_DIR$/8-切片/34.切片的简介和创建.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/35.切片数据的初始化.go" beforeDir="false" afterPath="$PROJECT_DIR$/8-切片/35.切片数据的初始化.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/36.切片数据遍历.go" beforeDir="false" afterPath="$PROJECT_DIR$/8-切片/36.切片数据遍历.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/37.切片的截取操作.go" beforeDir="false" afterPath="$PROJECT_DIR$/8-切片/37.切片的截取操作.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/38.切片的copy.go" beforeDir="false" afterPath="$PROJECT_DIR$/8-切片/38.切片的copy.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/39.切片作为函数参数.go" beforeDir="false" afterPath="$PROJECT_DIR$/8-切片/39.切片作为函数参数.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,58 +75,61 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/映射" />
-      <recent name="$PROJECT_DIR$/基本变量与类型" />
+      <recent name="$PROJECT_DIR$/8-切片" />
+      <recent name="$PROJECT_DIR$/3-运算符" />
+      <recent name="$PROJECT_DIR$/4-流程控制" />
+      <recent name="$PROJECT_DIR$/5-函数" />
+      <recent name="$PROJECT_DIR$/7-数组" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build 04.waitgroup.go">
-    <configuration name="go build 01.go中的携程.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go 构建.go build 13.管道的select功能.go">
+    <configuration name="go build 09.管道的遍历.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-base" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/携程和管道/01.go中的携程.go" />
+      <filePath value="$PROJECT_DIR$/12-携程和管道/09.管道的遍历.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 02.go携程中的主死从随特性.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 10.协程和管道协同工作案例.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-base" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/携程和管道/02.go携程中的主死从随特性.go" />
+      <filePath value="$PROJECT_DIR$/12-携程和管道/10.协程和管道协同工作案例.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 03.其中多个携程.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 11.只读管道和只写管道.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-base" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/携程和管道/03.其中多个携程.go" />
+      <filePath value="$PROJECT_DIR$/12-携程和管道/11.只读管道和只写管道.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 04.waitgroup.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 12.管道的阻塞.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-base" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/12.携程和管道/04.waitgroup.go" />
+      <filePath value="$PROJECT_DIR$/12-携程和管道/12.管道的阻塞.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 27.延迟调用defer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 13.管道的select功能.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-base" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/27.延迟调用defer.go" />
+      <filePath value="$PROJECT_DIR$/12-携程和管道/13.管道的select功能.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go 构建.go build 04.waitgroup.go" />
-        <item itemvalue="Go 构建.go build 03.其中多个携程.go" />
-        <item itemvalue="Go 构建.go build 02.go携程中的主死从随特性.go" />
-        <item itemvalue="Go 构建.go build 01.go中的携程.go" />
-        <item itemvalue="Go 构建.go build 27.延迟调用defer.go" />
+        <item itemvalue="Go 构建.go build 13.管道的select功能.go" />
+        <item itemvalue="Go 构建.go build 12.管道的阻塞.go" />
+        <item itemvalue="Go 构建.go build 11.只读管道和只写管道.go" />
+        <item itemvalue="Go 构建.go build 10.协程和管道协同工作案例.go" />
+        <item itemvalue="Go 构建.go build 09.管道的遍历.go" />
       </list>
     </recent_temporary>
   </component>

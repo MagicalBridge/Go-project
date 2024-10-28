@@ -15,8 +15,9 @@ func main() {
 		intChan <- i
 	}
 
-	//	在遍历前，如果没有关闭管道，就会出现deadblock错误
+	// 在遍历前，如果没有关闭管道，就会出现 deadblock 错误 close 是个内置函数
 	close(intChan)
+
 	for v := range intChan {
 		println(v)
 	}

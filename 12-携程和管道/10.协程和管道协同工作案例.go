@@ -8,10 +8,10 @@ import (
 
 // 【1】案例需求:
 // 请完成协程和管道协同工作的案例，具体要求:
-// 1)开启一个writeData协程，向管道中写入50个整数，
-// 2)开启一个readData协程，从管道中读取writeData写入的数据。
-// 3)注意:writeData和readDate操作的是同一个管道；
-// 4)主线程需要等待writeData和readDate协程都完成工作才能退出；
+// 	1) 开启一个writeData协程，向管道中写入50个整数。
+// 	2) 开启一个readData协程，从管道中读取writeData写入的数据。
+// 	3) 注意:writeData和readDate操作的是同一个管道。
+// 	4) 主线程需要等待writeData和readDate协程都完成工作才能退出。
 
 func writeData(ch chan int, wg *sync.WaitGroup) {
 	defer wg.Done()
