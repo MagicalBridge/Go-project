@@ -12,6 +12,22 @@ import (
 	2)、在主线程中也每隔一秒输出"hello msb"，输出10次后，退出程序
 	3)、要求主线程和goroutine同时执行
 */
+
+func testFun() {
+	for i := 0; i <= 10; i++ {
+		fmt.Println("hello golang " + strconv.Itoa(i))
+		time.Sleep(time.Second)
+	}
+}
+
+func main() {
+	go testFun() // 开启一个协程
+	for i := 0; i <= 10; i++ {
+		fmt.Println("hello main" + strconv.Itoa(i))
+		time.Sleep(time.Second)
+	}
+}
+
 // 开启携程之后，打印是交替进行的
 //hello main0
 //hello golang 0
@@ -35,18 +51,3 @@ import (
 //hello golang 9
 //hello main10
 //hello golang 10
-
-func testFun() {
-	for i := 0; i <= 10; i++ {
-		fmt.Println("hello golang " + strconv.Itoa(i))
-		time.Sleep(time.Second)
-	}
-}
-
-func main() {
-	go testFun()
-	for i := 0; i <= 10; i++ {
-		fmt.Println("hello main" + strconv.Itoa(i))
-		time.Sleep(time.Second)
-	}
-}
