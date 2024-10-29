@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55f8c628-2475-4f63-b19e-3fa91b213239" name="更改" comment="feat:add goroutine">
+      <change afterPath="$PROJECT_DIR$/12-携程和管道/13.向nil channel中发送数据.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-携程和管道/16.向已经关闭的channel发送消息.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-携程和管道/17.当channel关闭并且缓冲区为空取数据.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-变量与数据类型/13.字符串类型.go" beforeDir="false" afterPath="$PROJECT_DIR$/2-变量与数据类型/13.字符串类型.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/40.bubble_sort .go" beforeDir="false" afterPath="$PROJECT_DIR$/40.冒泡排序 .go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/43.struct_type.go" beforeDir="false" afterPath="$PROJECT_DIR$/43.结构体.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/47.pointer_type.go" beforeDir="false" afterPath="$PROJECT_DIR$/47.指针类型.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/48.pointer_arr.go" beforeDir="false" afterPath="$PROJECT_DIR$/48.指针数组.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/53.methods_inherited.go" beforeDir="false" afterPath="$PROJECT_DIR$/53.结构体继承.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-携程和管道/09.管道的遍历.go" beforeDir="false" afterPath="$PROJECT_DIR$/12-携程和管道/09.管道的遍历.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-携程和管道/13.管道的select功能.go" beforeDir="false" afterPath="$PROJECT_DIR$/12-携程和管道/14.管道的select功能.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-携程和管道/14.协程错误处理.go" beforeDir="false" afterPath="$PROJECT_DIR$/12-携程和管道/15.协程错误处理.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,29 +72,13 @@
       <recent name="$PROJECT_DIR$/7-数组" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build 13.字符串类型.go">
-    <configuration name="go build 10.协程和管道协同工作案例.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go 构建.go build 09.管道的遍历.go">
+    <configuration name="go build 09.管道的遍历.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-base" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/12-携程和管道/10.协程和管道协同工作案例.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 11.只读管道和只写管道.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-base" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/12-携程和管道/11.只读管道和只写管道.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 12.管道的阻塞.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-base" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/12-携程和管道/12.管道的阻塞.go" />
+      <filePath value="$PROJECT_DIR$/12-携程和管道/09.管道的遍历.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build 13.字符串类型.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -105,21 +89,37 @@
       <filePath value="$PROJECT_DIR$/2-变量与数据类型/13.字符串类型.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 13.管道的select功能.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 13.向nil channel中发送数据.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-base" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/12-携程和管道/13.管道的select功能.go" />
+      <filePath value="$PROJECT_DIR$/12-携程和管道/13.向nil channel中发送数据.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 16.向已经关闭的channel发送消息.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-base" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/12-携程和管道/16.向已经关闭的channel发送消息.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 17.当channel关闭并且缓冲区为空取数据.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-base" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/12-携程和管道/17.当channel关闭并且缓冲区为空取数据.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build 09.管道的遍历.go" />
+        <item itemvalue="Go 构建.go build 17.当channel关闭并且缓冲区为空取数据.go" />
+        <item itemvalue="Go 构建.go build 16.向已经关闭的channel发送消息.go" />
+        <item itemvalue="Go 构建.go build 13.向nil channel中发送数据.go" />
         <item itemvalue="Go 构建.go build 13.字符串类型.go" />
-        <item itemvalue="Go 构建.go build 13.管道的select功能.go" />
-        <item itemvalue="Go 构建.go build 12.管道的阻塞.go" />
-        <item itemvalue="Go 构建.go build 11.只读管道和只写管道.go" />
-        <item itemvalue="Go 构建.go build 10.协程和管道协同工作案例.go" />
       </list>
     </recent_temporary>
   </component>
