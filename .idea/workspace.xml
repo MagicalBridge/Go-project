@@ -5,23 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55f8c628-2475-4f63-b19e-3fa91b213239" name="更改" comment="feat:add goroutine">
-      <change afterPath="$PROJECT_DIR$/12-携程和管道/12.管道的阻塞.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-携程和管道/13.管道的select功能.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12-携程和管道/73.互斥锁的引入.go" beforeDir="false" afterPath="$PROJECT_DIR$/12-携程和管道/06.互斥锁的引入.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12-携程和管道/74.管道的基本概念和用例.go" beforeDir="false" afterPath="$PROJECT_DIR$/12-携程和管道/07.管道的基本概念和用例.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12-携程和管道/75.管道关闭.go" beforeDir="false" afterPath="$PROJECT_DIR$/12-携程和管道/08.管道关闭.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12-携程和管道/76.管道的遍历.go" beforeDir="false" afterPath="$PROJECT_DIR$/12-携程和管道/09.管道的遍历.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12-携程和管道/77.协程和管道协同工作案例.go" beforeDir="false" afterPath="$PROJECT_DIR$/12-携程和管道/10.协程和管道协同工作案例.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12-携程和管道/78.只读管道和只写管道.go" beforeDir="false" afterPath="$PROJECT_DIR$/12-携程和管道/11.只读管道和只写管道.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12-携程和管道/79.协程错误处理.go" beforeDir="false" afterPath="$PROJECT_DIR$/12-携程和管道/14.协程错误处理.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/16.arithmetic_operator.go" beforeDir="false" afterPath="$PROJECT_DIR$/3-运算符/16.算数运算符.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/34.切片的简介和创建.go" beforeDir="false" afterPath="$PROJECT_DIR$/8-切片/34.切片的简介和创建.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/35.切片数据的初始化.go" beforeDir="false" afterPath="$PROJECT_DIR$/8-切片/35.切片数据的初始化.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/36.切片数据遍历.go" beforeDir="false" afterPath="$PROJECT_DIR$/8-切片/36.切片数据遍历.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/37.切片的截取操作.go" beforeDir="false" afterPath="$PROJECT_DIR$/8-切片/37.切片的截取操作.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/38.切片的copy.go" beforeDir="false" afterPath="$PROJECT_DIR$/8-切片/38.切片的copy.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/39.切片作为函数参数.go" beforeDir="false" afterPath="$PROJECT_DIR$/8-切片/39.切片作为函数参数.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-变量与数据类型/13.字符串类型.go" beforeDir="false" afterPath="$PROJECT_DIR$/2-变量与数据类型/13.字符串类型.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/40.bubble_sort .go" beforeDir="false" afterPath="$PROJECT_DIR$/40.冒泡排序 .go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/43.struct_type.go" beforeDir="false" afterPath="$PROJECT_DIR$/43.结构体.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/47.pointer_type.go" beforeDir="false" afterPath="$PROJECT_DIR$/47.指针类型.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/48.pointer_arr.go" beforeDir="false" afterPath="$PROJECT_DIR$/48.指针数组.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/53.methods_inherited.go" beforeDir="false" afterPath="$PROJECT_DIR$/53.结构体继承.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,26 +43,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultGoTemplateProperty": "Go File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "RunOnceActivity.go.modules.automatic.dependencies.download": "true",
-    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "ToolWindowGit.ShowToolbar": "false",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "go.import.settings.migrated": "true",
-    "last_opened_file_path": "/Users/chupengfei/Documents/myProject/Golang_project/go-base",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.automatic.dependencies.download&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;ToolWindowGit.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/chupengfei/Documents/myProject/Golang_project/go-base&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/8-切片" />
@@ -82,15 +72,7 @@
       <recent name="$PROJECT_DIR$/7-数组" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build 13.管道的select功能.go">
-    <configuration name="go build 09.管道的遍历.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-base" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/12-携程和管道/09.管道的遍历.go" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go 构建.go build 13.字符串类型.go">
     <configuration name="go build 10.协程和管道协同工作案例.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-base" />
       <working_directory value="$PROJECT_DIR$" />
@@ -115,6 +97,14 @@
       <filePath value="$PROJECT_DIR$/12-携程和管道/12.管道的阻塞.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build 13.字符串类型.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-base" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/2-变量与数据类型/13.字符串类型.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build 13.管道的select功能.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-base" />
       <working_directory value="$PROJECT_DIR$" />
@@ -125,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build 13.字符串类型.go" />
         <item itemvalue="Go 构建.go build 13.管道的select功能.go" />
         <item itemvalue="Go 构建.go build 12.管道的阻塞.go" />
         <item itemvalue="Go 构建.go build 11.只读管道和只写管道.go" />
         <item itemvalue="Go 构建.go build 10.协程和管道协同工作案例.go" />
-        <item itemvalue="Go 构建.go build 09.管道的遍历.go" />
       </list>
     </recent_temporary>
   </component>
