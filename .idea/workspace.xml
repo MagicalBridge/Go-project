@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55f8c628-2475-4f63-b19e-3fa91b213239" name="更改" comment="feat:add goroutine">
-      <change afterPath="$PROJECT_DIR$/12-携程和管道/13.向nil channel中发送数据.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-携程和管道/16.向已经关闭的channel发送消息.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-携程和管道/17.当channel关闭并且缓冲区为空取数据.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12-携程和管道/09.管道的遍历.go" beforeDir="false" afterPath="$PROJECT_DIR$/12-携程和管道/09.管道的遍历.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12-携程和管道/13.管道的select功能.go" beforeDir="false" afterPath="$PROJECT_DIR$/12-携程和管道/14.管道的select功能.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12-携程和管道/14.协程错误处理.go" beforeDir="false" afterPath="$PROJECT_DIR$/12-携程和管道/15.协程错误处理.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
