@@ -2,8 +2,26 @@ package main
 
 import (
 	"fmt"
+	"runtime"
 	"time"
 )
+
+func GoroutineNum() {
+	//	1、统计当前存在的goroutine数量
+	go func() {
+		for {
+			fmt.Println("NumGoroutine:", runtime.NumGoroutine())
+			time.Sleep(500 * time.Millisecond)
+		}
+	}()
+
+	//	2、启动大量的goroutine
+	for {
+		go func() {
+			time.Sleep(100 * time.Second)
+		}()
+	}
+}
 
 // 使用匿名函数启动携程
 /**
@@ -16,12 +34,14 @@ import (
 3
 */
 func main() {
-	for i := 0; i <= 5; i++ {
-		go func(n int) {
-			fmt.Println(n)
-		}(i)
-	}
-	time.Sleep(time.Second * 2)
+	//for i := 0; i <= 5; i++ {
+	//	go func(n int) {
+	//		fmt.Println(n)
+	//	}(i)
+	//}
+	//time.Sleep(time.Second * 2)
+
+	GoroutineNum()
 }
 
 /**
