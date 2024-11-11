@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55f8c628-2475-4f63-b19e-3fa91b213239" name="更改" comment="feat:add goroutine">
-      <change afterPath="$PROJECT_DIR$/interview/1-交替打印数字和字母.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12-携程和管道/03.其中多个携程.go" beforeDir="false" afterPath="$PROJECT_DIR$/12-携程和管道/03.启动多个携程.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview/1-交替打印数字和字母.go" beforeDir="false" afterPath="$PROJECT_DIR$/interview/1-交替打印数字和字母.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +67,7 @@
       <recent name="$PROJECT_DIR$/7-数组" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build 03.启动多个携程.go">
+  <component name="RunManager" selected="Go 构建.go build 1-交替打印数字和字母.go">
     <configuration name="go build 03.启动多个携程.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-base" />
       <working_directory value="$PROJECT_DIR$" />
@@ -111,8 +110,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go 构建.go build 03.启动多个携程.go" />
         <item itemvalue="Go 构建.go build 1-交替打印数字和字母.go" />
+        <item itemvalue="Go 构建.go build 03.启动多个携程.go" />
         <item itemvalue="Go 构建.go build 09.管道的遍历.go" />
         <item itemvalue="Go 构建.go build 17.当channel关闭并且缓冲区为空取数据.go" />
         <item itemvalue="Go 构建.go build 16.向已经关闭的channel发送消息.go" />
