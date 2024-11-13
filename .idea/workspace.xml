@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55f8c628-2475-4f63-b19e-3fa91b213239" name="更改" comment="feat:add goroutine">
-      <change beforePath="$PROJECT_DIR$/interview/1-交替打印数字和字母.go" beforeDir="false" afterPath="$PROJECT_DIR$/interview/1-交替打印数字和字母.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/17.auto_increment.go" beforeDir="false" afterPath="$PROJECT_DIR$/3-运算符/17.自增自减运算符.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/18.assignment_operation.go" beforeDir="false" afterPath="$PROJECT_DIR$/3-运算符/18.assignment_operation.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/19.relational_operator.go" beforeDir="false" afterPath="$PROJECT_DIR$/3-运算符/19.relational_operator.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21.loop_type.go" beforeDir="false" afterPath="$PROJECT_DIR$/4-流程控制/21.循环.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,9 +63,9 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/8-切片" />
-      <recent name="$PROJECT_DIR$/3-运算符" />
       <recent name="$PROJECT_DIR$/4-流程控制" />
+      <recent name="$PROJECT_DIR$/3-运算符" />
+      <recent name="$PROJECT_DIR$/8-切片" />
       <recent name="$PROJECT_DIR$/5-函数" />
       <recent name="$PROJECT_DIR$/7-数组" />
     </key>
