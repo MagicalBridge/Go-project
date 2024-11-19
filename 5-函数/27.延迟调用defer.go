@@ -9,7 +9,7 @@ import "fmt"
 
 func addTest(num1 int, num2 int) int {
 	// 在go语言中，程序遇到defer关键字，不会立即执行defer后面的语句，而是将defer
-	// 后面的语句压入一个栈中，然后继续执行函数后面的语句
+	// 后面的语句压入一个栈中，也会将相应的值拷贝到栈中，不会随着后面值的变化而变化，然后继续执行函数后面的语句
 	// 在函数执行完毕后，从栈中取出语句开始执行，按照先进后出的规则执行语句
 	defer fmt.Println("num1=", num1)
 	defer fmt.Println("num2=", num2)

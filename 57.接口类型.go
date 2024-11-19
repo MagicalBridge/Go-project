@@ -6,7 +6,6 @@ import "fmt"
 // 实现了这些方法就是实现了这个接口
 
 type Humaner interface {
-	//方法  方法声明
 	SayHello()
 	//Result(int, int) int
 }

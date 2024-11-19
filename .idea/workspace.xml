@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="55f8c628-2475-4f63-b19e-3fa91b213239" name="更改" comment="feat:add goroutine">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/27.延迟调用defer.go" beforeDir="false" afterPath="$PROJECT_DIR$/5-函数/27.延迟调用defer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5-函数/27.延迟调用defer.go" beforeDir="false" afterPath="$PROJECT_DIR$/5-函数/27.延迟调用defer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/51.Anonymous fields and inheritance.go" beforeDir="false" afterPath="$PROJECT_DIR$/51.匿名字段实现继承关系.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/57.interface_type.go" beforeDir="false" afterPath="$PROJECT_DIR$/57.接口类型.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
