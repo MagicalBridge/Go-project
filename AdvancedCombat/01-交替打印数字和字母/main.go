@@ -29,6 +29,7 @@ func main() {
 			}
 		}
 	}()
+
 	// 将 WaitGroup 的计数器加1, 表示有一个goroutine需要等待
 	wait.Add(1)
 
