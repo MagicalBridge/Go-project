@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55f8c628-2475-4f63-b19e-3fa91b213239" name="更改" comment="feat:add goroutine">
-      <change afterPath="$PROJECT_DIR$/6-格式化输出和错误处理/1.各种格式化输出.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedCombat/02-判断字符串中字符是否全都不同/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedCombat/03-翻转字符串/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,23 +69,7 @@
       <recent name="$PROJECT_DIR$/8-切片" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build 1.各种格式化输出.go">
-    <configuration name="go build 03.启动多个携程.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-base" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/12-携程和管道/03.启动多个携程.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 1-交替打印数字和字母.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-base" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/interview/1-交替打印数字和字母.go" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go 构建.go build main.go (2)">
     <configuration name="go build 1.各种格式化输出.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-base" />
       <working_directory value="$PROJECT_DIR$" />
@@ -101,6 +86,22 @@
       <filePath value="$PROJECT_DIR$/5-函数/27.延迟调用defer.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-base" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/AdvancedCombat/02-判断字符串中字符是否全都不同/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-base" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/AdvancedCombat/03-翻转字符串/main.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-base" />
       <working_directory value="$PROJECT_DIR$" />
@@ -111,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build main.go (2)" />
+        <item itemvalue="Go 构建.go build main.go (1)" />
         <item itemvalue="Go 构建.go build 1.各种格式化输出.go" />
         <item itemvalue="Go 构建.go build main.go" />
         <item itemvalue="Go 构建.go build 27.延迟调用defer.go" />
-        <item itemvalue="Go 构建.go build 1-交替打印数字和字母.go" />
-        <item itemvalue="Go 构建.go build 03.启动多个携程.go" />
       </list>
     </recent_temporary>
   </component>
