@@ -11,6 +11,7 @@ import "fmt"
 func main() {
 	// 初始化一个变量 age，它的类型是int，先不赋值
 	var age int
+
 	// 给age变量赋值10
 	age = 10
 	fmt.Println(age)
@@ -20,5 +21,4 @@ func main() {
 	// 将a的值赋值给b
 	b = a
 	fmt.Println(b) // 10
-
 }

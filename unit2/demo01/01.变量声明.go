@@ -28,16 +28,15 @@ func main() {
 	fmt.Println(name)
 
 	// 多变量声明：
-	//这里我声明了两个变量，中间用逗号进行分割，这种写法可以一次性声明多个相同数据类型的变量
+	// 这里我声明了两个变量，中间用逗号进行分割，这种写法可以一次性声明多个相同数据类型的变量
 	var num, sum int
-	fmt.Println(num, sum)
+	fmt.Println(num, sum) // 0 0
 
 	// 这里我声明了一个布尔类型的变量，默认值是false
 	var flag bool
-	fmt.Println(flag)
+	fmt.Println(flag) // false
 
 	// 这里我声明一个字符串变量，它的默认值是"", 这里我使用 “%q” 进行打印，能够将空字符串以双引号的形式输出来
 	var s string
-	fmt.Printf("%q", s)
-
+	fmt.Printf("%q", s) // ""
 }

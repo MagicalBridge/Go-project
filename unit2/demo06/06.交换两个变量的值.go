@@ -7,8 +7,9 @@ import "fmt"
 func main() {
 	num1 := 10
 	num2 := 20
+
 	// 这样写的核心含义是将num2赋值给num1，将num1的值赋值给num2
 	num1, num2 = num2, num1
 	// 打印相关的变量
-	fmt.Println(num1, num2)
+	fmt.Println(num1, num2) // 20 10
 }
